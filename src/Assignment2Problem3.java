@@ -5,10 +5,33 @@ public class Assignment2Problem3
 
     public static void main(String[] args)
     {
-	Stack<Integer> stack = new Stack<Integer>();
+	// Stacks.
+	Stack<Integer> stackOne = new Stack<>();
+	Stack<Integer> stackTwo = new Stack<>();
 	
-	stack.push(5);
-	System.out.println(stack.peek());
+	// Setting it up.
+	stackOne.push(9);
+	stackOne.push(6);
+	stackOne.push(8);
+	stackOne.push(5);
+	stackOne.push(4);
+	stackOne.push(11);
+	stackOne.push(4);
+	
+	// TempVars.
+	int tempOne = 0;
+	int tempTwo = 0;
+	
+	
+	
+	
+	System.out.println(stackOne);
+	
+	
     }
-
+    
+    public static int Compare(int tempOne, int tempTwo)
+    {
+	return 0;
+    }
 }
